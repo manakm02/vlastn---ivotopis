@@ -1,0 +1,50 @@
+:root {
+  --barva-1: #061f3f;
+  --barva-2: #b3bcec;
+  --barva-3: #1a3d66;
+  --barva-h3: #5385e4;
+  --barva-4: #ee9ca1;
+  --pozadi-barva: #f6f7fc;
+}
+
+body {
+  background-color: var(--pozadi-barva);
+}
+
+h1 {
+  color: var(--barva-1);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: var(--barva-3);
+  text-transform: uppercase;
+}
+
+h3 {
+  color: var(--barva-h3);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+img {
+  height: 150px;
+}
+
+.osobni-udaje {
+  display: inline-block;
+}
+
+.nadpisy {
+  text-align: center;
+}
+
+.pozadi-osobni-udaje {
+  background-color: var(--barva-2);
+}
+
+table {
+  width: 40%;
+  table-layout: fixed;
+}
